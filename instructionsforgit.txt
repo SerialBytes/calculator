@@ -1,19 +1,21 @@
-these are instructions for using git
+These are instructions for using git:
 
-write this inside the folder you want to turn in to a git repository
+Write this inside the folder you want to turn it in to a git repository:
 git init 
 
 
 git status
 
-gives you the status of the git repository(folder) you are in, so all the files that need to be added
-you can add files by using 
+Gives you the status of the git repository (folder) you are in; displays all 
+the files that need to be added.
 
-
+You can add files by using: 
 
 git add <filenamehere>
-don't write the <> around the filename those are to show that you type stuff there
-you only need to add a file once and then it is in the 'bank'
+
+Don't write the <> around the filename; the brackets are to show that 
+you type stuff there. You only need to add a file once and then it is in 
+the 'bank'.
 
 git commit -am '<your message to describe the current status of your project>'
 
