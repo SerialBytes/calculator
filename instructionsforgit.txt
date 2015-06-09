@@ -36,3 +36,41 @@ displays all the branches of your current git directory(I will explain branches 
 
 git checkout <nameofbranch>
 changes which branch you are working on
+
+
+
+
+
+
+
+
+Incase you ever accidentally git commit under sudo
+
+
+inside the repository type cd .git
+Josephs-MacBook-Pro:calculator joseph$ cd .git
+
+
+
+then type ls -la
+
+Josephs-MacBook-Pro:.git joseph$ ls -la
+total 48
+drwxr-xr-x  15 joseph  staff  510 Jun  9 13:16 .
+drwxr-xr-x   5 joseph  staff  170 Jun  9 10:34 ..
+-rw-r--r--   1 joseph  staff   25 Jun  9 13:12 COMMIT_EDITMSG
+-rw-r--r--   1 joseph  staff    0 Jun  9 13:17 FETCH_HEAD
+-rw-r--r--   1 joseph  staff   23 Jun  9 13:16 HEAD
+-rw-r--r--   1 joseph  staff   41 Jun  9 13:14 ORIG_HEAD
+drwxr-xr-x   2 joseph  staff   68 Jun  9 08:17 branches
+-rw-r--r--   1 joseph  staff  271 Jun  9 13:15 config
+-rw-r--r--   1 joseph  staff   73 Jun  9 08:17 description
+drwxr-xr-x  11 joseph  staff  374 Jun  9 08:17 hooks
+-rw-r--r--   1 joseph  staff  120 Jun  9 13:16 index
+drwxr-xr-x   3 joseph  staff  102 Jun  9 08:17 info
+drwxr-xr-x   4 joseph  staff  136 Jun  9 08:38 logs
+drwxr-xr-x  10 joseph  staff  340 Jun  9 13:12 objects
+drwxr-xr-x   4 joseph  staff  136 Jun  9 08:17 refs
+
+then this
+Josephs-MacBook-Pro:.git joseph$ sudo chown -R joseph:staff *
