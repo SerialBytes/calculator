@@ -1,0 +1,8 @@
+ls
+lists current directories files
+
+cd <path>
+change directory
+
+mkdir <filename>
+makes a folder

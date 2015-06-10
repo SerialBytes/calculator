@@ -34,6 +34,9 @@ Pushes your changes to the online repository.
 git pull
 Takes the changes from online and tries to combine it with what you have 
 now.
+When in vi, type your message of why you're merging in "". Then press 
+:wq (Enter)
+
 
 git branch
 Displays all the branches of your current git directory (I will explain 
@@ -50,7 +53,7 @@ Changes which branch you are working on
 
 
 
-Incase you ever accidentally git commit under sudo
+In case you ever accidentally git commit under sudo
 
 
 inside the repository type cd .git
