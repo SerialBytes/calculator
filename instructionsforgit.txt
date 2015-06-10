@@ -3,7 +3,6 @@ These are instructions for using git:
 Write this inside the folder you want to turn it in to a git repository:
 git init 
 
-
 git status
 
 Gives you the status of the git repository (folder) you are in; displays all 
@@ -20,21 +19,26 @@ the 'bank'.
 git commit -am '<your message to describe the current status of your project>'
 
 git status
-checks the status of the repository
+
+Checks the status of the repository.
 
 
 
 git clone <https.blablablah>
-takes the httpslink from github and allows you to coppy it to your computer
+Takes the "https" link from github and allows you to copy it to your 
+computer.
 
 git push
-pushes your changes to the online repository
+Pushes your changes to the online repository.
 
 git pull
-takes the changes from online and tries to combine it with what you have now
+Takes the changes from online and tries to combine it with what you have 
+now.
 
 git branch
-displays all the branches of your current git directory(I will explain branches later, right now I don't think we have any yet so don't worry about it)
+Displays all the branches of your current git directory (I will explain 
+branches later, right now I don't think we have any yet so don't worry 
+about it).
 
 git checkout <nameofbranch>
 changes which branch you are working on
