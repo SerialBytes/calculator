@@ -41,7 +41,7 @@ branches later, right now I don't think we have any yet so don't worry
 about it).
 
 git checkout <nameofbranch>
-changes which branch you are working on
+Changes which branch you are working on
 
 
 
